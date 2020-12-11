@@ -1,0 +1,13 @@
+{
+  "name": "Sydney Metro",
+  "lines": [
+    {
+      "name": "Line One",
+      "stations": [
+        {
+          "name": "Station One"
+        }
+      ]
+    }
+  ]
+}

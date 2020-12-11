@@ -1,0 +1,26 @@
+region: ap-south-1
+
+function_name: createMetroNetwork
+handler: createMetroNetwork.handler
+description: Create Metro Network with lines and stations
+runtime: python3.7
+role: create-metro-network-role
+
+# bucket_name: 'example-bucket'
+# s3_key_prefix: 'path/to/file/'
+
+aws_access_key_id:
+aws_secret_access_key:
+
+# dist_directory: dist
+# timeout: 15
+# memory_size: 512
+# concurrency: 500
+
+# environment_variables:
+
+#tags:
+
+# Build options
+build:
+  source_directories: lib
